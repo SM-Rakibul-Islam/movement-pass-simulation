@@ -1,0 +1,145 @@
+
+----------------------------------------------------------------------
+A runtime error was detected at time 11.926271 at the following block:
+
+ *    1 12$             CREATE,1,NSEXPO(Arrival Schedule),People:
+                            NSEXPO(Arrival Schedule):
+                            NEXT(13$);
+
+Maximum of 150 entities exceeded.
+Possible causes:
+- A logic problem in your model is creating too many entities or not
+  disposing them. The run controller may be helpful in finding the problem.
+- You are in demo mode and have exceeded the entity limit. The commercial
+  version is required to run large models.
+- You have set an entity limit on the DISCRETE element that is too small.
+  Remove the limit or set it to a larger number.
+- You have exceeded the standard array s 
+pace for models. Use the Array Sizes
+  page in the Run/Setup dialog to increase the RSET space allocated and
+  recheck your model.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+11.926271 Hours>
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Movement_Pass                                               Run execution date : 4/13/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/13/2021
+
+Replication ended at time      : 11.926271 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Collect_Information_10869.VATimePerEntity   .06777     (Insuf)    .05100     .08299         28    
+Collect_Information_10869.WaitTimePerEntit  .73582     (Insuf)    .00000     1.5179         28    
+Movement_Pass_10869.TotalTimePerEntity      .21529     (Insuf)    .07486     .33139         22    
+Movement_Pass_10869.VATimePerEntity         .07955     (Insuf)    .06671     .09940         22    
+Emergency_Service_Point_10869.WaitTimePerE  .00000     (Insuf)    .00000     .00000          2    
+Emergency_Service_Point_10869.VATimePerEnt  .03696     (Insuf)    .03324     .04068          2    
+Log_Entry_Process_Male_10869.WaitTimePerEn  .00107     (Insuf)    .00000     .00750         19    
+Emergency_Service_Point_10869.TotalTimePer  .03696     (Insuf)    .03324     .04068          2    
+Log_Entry_Process_Male_10869.VATimePerEnti  .05819     (Insuf)    .05030     .06651         19    
+Log_Entry_Process_Female_10869.TotalTimePe  .07566     (Insuf)    .06792     .08034          7    
+Movement_Pass_10869.WaitTimePerEntity       .13574     (Insuf)    .00000     .24601         22    
+Log_Entry_Process_Male_10869.TotalTimePerE  .05926     (Insuf)    .05030     .07371         19    
+Log_Entry_Process_Female_10869.VATimePerEn  .07566     (Insuf)    .06792     .08034          7    
+Collect_Information_10869.TotalTimePerEnti  .80360     (Insuf)    .05195     1.5801         28    
+Log_Entry_Process_Female_10869.WaitTimePer  .00000     (Insuf)    .00000     .00000          7    
+People.VATime                               .13420     (Insuf)    .00000     .26785         36    
+People.NVATime                              .00000     (Insuf)    .00000     .00000         36    
+People.WaitTime                             .46887     (Insuf)    .00000     1.4047         36    
+People.TranTime                             .00000     (Insuf)    .00000     .00000         36    
+People.OtherTime                            .00000     (Insuf)    .00000     .00000         36    
+People.TotalTime                            .60307     (Insuf)    .00000     1.6113         36    
+Collect_Information_10869.Queue.WaitingTim  .76493     (Insuf)    .00000     1.5801         29    
+Movement_Pass_10869.Queue.WaitingTime       .14167     (Insuf)    .00000     .27202         23    
+Emergency_Service_Point_10869.Queue.Waitin  .00000     (Insuf)    .00000     .00000          2    
+Log_Entry_Process_Female_10869.Queue.Waiti  .00103     (Insuf)    .00000     .00822          8    
+Log_Entry_Process_Male_10869.Queue.Waiting  .00101     (Insuf)    .00000     .00750         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+People.WIP                                  11.726     (Insuf)    .00000     147.00     147.00    
+Policeman_Female.NumberBusy                 .05104     (Insuf)    .00000     1.0000     1.0000    
+Policeman_Female.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Policeman_Female.Utilization                .05104     (Insuf)    .00000     1.0000     1.0000    
+MP_Distributor.NumberBusy                   .15013     (Insuf)    .00000     1.0000     1.0000    
+MP_Distributor.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+MP_Distributor.Utilization                  .15013     (Insuf)    .00000     1.0000     1.0000    
+Policeman_Male.NumberBusy                   .09481     (Insuf)    .00000     1.0000     1.0000    
+Policeman_Male.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Policeman_Male.Utilization                  .09481     (Insuf)    .00000     1.0000     1.0000    
+Manager.NumberBusy                          .00620     (Insuf)    .00000     1.0000     .00000    
+Manager.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Manager.Utilization                         .00620     (Insuf)    .00000     1.0000     .00000    
+Serjeant.NumberBusy                         .16122     (Insuf)    .00000     1.0000     1.0000    
+Serjeant.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Serjeant.Utilization                        .16122     (Insuf)    .00000     1.0000     1.0000    
+Collect_Information_10869.Queue.NumberInQu  10.953     (Insuf)    .00000     141.00     141.00    
+Movement_Pass_10869.Queue.NumberInQueue     .30696     (Insuf)    .00000     4.0000     2.0000    
+Emergency_Service_Point_10869.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+Log_Entry_Process_Female_10869.Queue.Numbe  6.8914E-04 (Insuf)    .00000     1.0000     .00000    
+Log_Entry_Process_Male_10869.Queue.NumberI  .00170     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+MP_Not_Passed_People_10869                       14  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Emergency_Service_Point_10869 Number Out    2.0000    
+Movement_Pass_10869 Accum VA Time           1.7501    
+Log_Entry_Process_Female_10869 Number In    8.0000    
+Collect_Information_10869 Number Out        28.000    
+Log_Entry_Process_Male_10869 Accum VA Time  1.1056    
+Log_Entry_Process_Female_10869 Accum Wait   .00000    
+Log_Entry_Process_Female_10869 Accum VA Ti  .52962    
+Emergency_Service_Point_10869 Number In     2.0000    
+Log_Entry_Process_Female_10869 Number Out   7.0000    
+Log_Entry_Process_Male_10869 Number In      20.000    
+Collect_Information_10869 Accum VA Time     1.8976    
+Log_Entry_Process_Male_10869 Number Out     19.000    
+Movement_Pass_10869 Number Out              22.000    
+Log_Entry_Process_Male_10869 Accum Wait Ti  .02024    
+Movement_Pass_10869 Number In               25.000    
+Emergency_Service_Point_10869 Accum Wait T  .00000    
+Collect_Information_10869 Number In         170.00    
+Emergency_Service_Point_10869 Accum VA Tim  .07392    
+Movement_Pass_10869 Accum Wait Time         2.9862    
+Collect_Information_10869 Accum Wait Time   20.603    
+People.NumberIn                             183.00    
+People.NumberOut                            36.000    
+Policeman_Female.NumberSeized               8.0000    
+Policeman_Female.ScheduledUtilization       .05104    
+MP_Distributor.NumberSeized                 23.000    
+MP_Distributor.ScheduledUtilization         .15013    
+Policeman_Male.NumberSeized                 20.000    
+Policeman_Male.ScheduledUtilization         .09481    
+Manager.NumberSeized                        2.0000    
+Manager.ScheduledUtilization                .00620    
+Serjeant.NumberSeized                       29.000    
+Serjeant.ScheduledUtilization               .16122    
+System.NumberOut                            36.000    
+
+
+Simulation run time: 0.45 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).
